@@ -8,7 +8,7 @@ def tth(str):
     return "".join([('%0.2X' % ord(i)) for i in str])
 
 def htt(hstr):
-    return ""join.([chr(int("0x" + hstr[i] + hstr[i+1], 16)) for i in range(0, len(hstr),2)])
+    return "".join([chr(int("0x" + hstr[i] + hstr[i+1], 16)) for i in range(0, len(hstr),2)])
 
 def ath(harr):
     return "".join([chr(i) for i in harr])
